@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+void SayHi();
 
 int main()
 {
-  printf("Hello, World!n/");
+  printf("Hello, World!/n");
 
 
   
@@ -16,4 +17,11 @@ int main()
 
 
   return 0;
+}
+
+void SayHi()
+{
+  printf("Hi, Dean/n");
+
+  
 }
